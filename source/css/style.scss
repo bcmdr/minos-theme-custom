@@ -3,10 +3,12 @@ $family-sans-serif: "Lato", "Helvetica", sans-serif;
 $family-mono: "Source Code Pro", monospace, "Microsoft YaHei";
 $border-color: #dbdbdb;
 
+$gap: 64px;
+$desktop: 720px;
+$widescreen: 960px + (2 * $gap);
 
-// $desktop: 769px;
 
-@import "../../../../node_modules/bulma/css/bulma";
+@import "../../../../node_modules/bulma/bulma.sass";
 @import "../../../../node_modules/highlight.js/styles/atom-one-light";
 
 body, button, input, select, textarea {
@@ -591,6 +593,7 @@ figure.highlight {
     h5 {
         margin-bottom: 0;
         text-transform: uppercase;
+        font-family: $family-serif;
 
         & > svg {
             margin-right: 0.5rem;
