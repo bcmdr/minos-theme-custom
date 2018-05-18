@@ -14,8 +14,8 @@ article:
 
 menu:
   All Posts: /archives
-  Development: /categories/Development
-  Music: /categories/Music
+  Articles: /categories/Articles
+  Tutorials: /categories/Tutorials
   # About: /about
 
 search:
