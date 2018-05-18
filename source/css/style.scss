@@ -1,13 +1,19 @@
-$family-serif: "Ovo", "Georgia", "STZhongsong", "Microsoft YaHei", serif;
+$family-serif: "Merriweather", "Georgia", "STZhongsong", "Microsoft YaHei", serif;
+$family-sans-serif: "Lato", "Helvetica", sans-serif;
 $family-mono: "Source Code Pro", monospace, "Microsoft YaHei";
 $border-color: #dbdbdb;
 
 @import "../../../../node_modules/highlight.js/styles/atom-one-light";
+@import "../../../../node_modules/bulma/css/bulma";
 
 body, button, input, select, textarea {
     font-family: $family-serif;
+    color: rgba(0,0,0,0.85);
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: $family-sans-serif;
+}
 
 a.tag.article-tag {
     font-size: 0.9rem;
@@ -81,6 +87,7 @@ a.tag.article-tag {
         h1, h2, h3, h4, h5, h6 {
             cursor: pointer;
             position: relative;
+            font-family: $family-sans-serif;
 
             &:hover:before {
                 content: '#';
