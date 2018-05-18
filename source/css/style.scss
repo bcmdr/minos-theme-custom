@@ -3,8 +3,11 @@ $family-sans-serif: "Lato", "Helvetica", sans-serif;
 $family-mono: "Source Code Pro", monospace, "Microsoft YaHei";
 $border-color: #dbdbdb;
 
-@import "../../../../node_modules/highlight.js/styles/atom-one-light";
+
+// $desktop: 769px;
+
 @import "../../../../node_modules/bulma/css/bulma";
+@import "../../../../node_modules/highlight.js/styles/atom-one-light";
 
 body, button, input, select, textarea {
     font-family: $family-serif;
@@ -84,7 +87,9 @@ a.tag.article-tag {
 
     .article-entry {
         line-height: 1.58;
+        margin-top: 2.25rem;
         margin-bottom: 3rem;
+
         h1, h2, h3, h4, h5, h6 {
             cursor: pointer;
             position: relative;
@@ -95,6 +100,14 @@ a.tag.article-tag {
                 position: absolute;
                 right: 100%;
             }
+        }
+
+        h2 {
+            font-size: 1.5rem;
+        }
+
+        h3 {
+            font-size: 1.25rem;
         }
     }
 
