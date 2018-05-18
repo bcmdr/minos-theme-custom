@@ -1,0 +1,44 @@
+favicon: /favicon.png
+open_graph:
+  twitter_id:
+  twitter_site:
+  google_plus:
+  fb_admins:
+  fb_app_id:
+
+logo: 
+  text: BCMDR
+
+article:
+  readtime: false
+
+menu:
+  All Posts: /archives
+  Development: /categories/Development
+  Music: /categories/Music
+  # About: /about
+
+search:
+  type: insight
+
+# share:
+#   type: sharethis
+#   install_url:
+
+# comment:
+#   type: discus
+#   shortname:
+
+plugins:
+  mathjax: false
+  gallery: true
+  google-analytics:
+    tracking_id:
+
+navbar_links:
+  GitHub:
+    icon: fab fa-github
+    url: https://github.com/bcmdr
+
+footer_links:
+  GitHub: https://github.com/bcmdr/hexo-site
