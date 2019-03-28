@@ -7,7 +7,7 @@ open_graph:
   fb_app_id:
 
 logo: 
-  text: BCMDR
+  text: bcmdr
 
 article:
   readtime: false
@@ -40,6 +40,9 @@ navbar_links:
   GitHub:
     icon: fab fa-github
     url: https://github.com/bcmdr
+  Twitter:
+    icon: fab fa-twitter
+    url: https://twitter.com/bcmdr
 
 footer_links:
-  GitHub: https://github.com/bcmdr/hexo-site
+  View Source on Github: https://github.com/bcmdr/hexo-site
