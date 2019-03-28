@@ -13,10 +13,10 @@ article:
   readtime: false
 
 menu:
-  Archive: /archives
   Articles: /categories/Articles
   Tutorials: /categories/Tutorials
   Sessions: /categories/Sessions
+  Archive: /archives
   # About: /about
 
 search:
