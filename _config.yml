@@ -13,7 +13,7 @@ article:
   readtime: false
 
 menu:
-  All Posts: /archives
+  Archive: /archives
   Articles: /categories/Articles
   Tutorials: /categories/Tutorials
   Sessions: /categories/Sessions
