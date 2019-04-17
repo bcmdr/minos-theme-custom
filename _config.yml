@@ -13,10 +13,10 @@ article:
   readtime: false
 
 menu:
-  Articles: /categories/Articles
-  Tutorials: /categories/Tutorials
-  Sessions: /categories/Sessions
   Archive: /archives
+  Articles: /categories/Articles
+  Sessions: /categories/Sessions
+  Tutorials: /categories/Tutorials
   # About: /about
 
 search:

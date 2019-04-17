@@ -460,6 +460,7 @@ $hljs-classes: "comment" "quote" "variable" "template" "attribute" "tag" "name" 
 code, pre {
     font-size: 0.85rem;
     font-family: $family-mono;
+    color: inherit;
 }
 
 figure.highlight {
