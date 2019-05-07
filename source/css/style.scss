@@ -55,6 +55,10 @@ a.tag.article-tag {
         text-align: left;
     }
 
+    .navbar-menu .navbar-item:nth-child(1) {
+        margin-left: 12px;
+    }
+
     a.navbar-item.is-active {
         color: #3273dc;
     }
