@@ -46,7 +46,8 @@ a.tag.article-tag {
     }
 
     .navbar-item {
-        text-align: center;
+        display: inline-block;
+        text-align: left;
     }
 
     a.navbar-item.is-active {
