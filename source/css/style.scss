@@ -45,8 +45,13 @@ a.tag.article-tag {
         font-weight: 600;
     }
 
+    .navbar-menu {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
     .navbar-item {
-        display: inline-block;
         text-align: left;
     }
 
