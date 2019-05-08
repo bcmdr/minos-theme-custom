@@ -45,8 +45,9 @@ a.tag.article-tag {
         font-weight: 600;
     }
 
-    .navbar-menu {
+    .navbar-menu.is-active {
         padding-left: 12px;
+        padding-right: 12px;
         display: flex;
         align-items: center;
         flex-wrap: wrap;
